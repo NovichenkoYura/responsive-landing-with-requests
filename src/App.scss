@@ -1,8 +1,23 @@
-body{
-  background-color: #F8F8F8;
+* {
+  box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  background-color: #F8F8F8;
+  font-family: 'Nunito';
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
 
 // .App {
 //   text-align: center;
