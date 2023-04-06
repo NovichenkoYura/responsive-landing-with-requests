@@ -2,40 +2,16 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  border: 1px solid black;
 }
 
 .frontview {
   padding: 150px 30px;
   display: block;
-  background: url("https://htmldemo.net/moto/img/moto/banner.webp");
-  background-repeat: no-repeat;
-  background-position: bottom;
+  background: url("https://htmldemo.net/moto/img/moto/banner.webp") repeat scroll center center;
   background-size: cover;
   flex-grow: 1;
 }
 
-@media screen and (min-width: 360px) {
-  .frontview {
-    height: 500px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .frontview {
-    height: 500px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .frontview {
-    height: 650px;
-  }
-}
-@media screen and (min-width: 2560px) {
-  .frontview {
-    width: 1170px;
-    height: 650px;
-  }
-}
 .frontview__title {
   font-family: "Open Sans", sans-serif;
   font-size: 46px;
@@ -43,4 +19,44 @@
   font-weight: 700;
   margin-bottom: 40px;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.frontview__btn {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1.25px solid #ffffff;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  width: 165px;
+  height: 45px;
+  cursor: pointer;
+  padding: 0 15px;
+  margin: 0 5px 15px;
+}
+@media screen and (min-width: 384px) {
+  .frontview__btn {
+    padding: 0 20px;
+    margin: 0 5px;
+  }
+}
+
+.frontview__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.frontview__content {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 384px) {
+  .frontview__content {
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=FrontView.css.map */
