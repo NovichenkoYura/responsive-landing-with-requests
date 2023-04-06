@@ -6,10 +6,9 @@
  }
 
  .frontview{
-   //  height: 100vh;
-   height: 500px;   
-    display: block;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/frontview_optimized.jpeg);
+   padding: 150px 30px; 
+   display: block;
+    background: url("https://htmldemo.net/moto/img/moto/banner.webp");
     background-repeat: no-repeat;
     background-position: bottom;
           -webkit-background-size: cover;
@@ -43,4 +42,13 @@
       width: 1170px;
       height: 650px;      
   }    
+}
+
+.frontview__title{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 46px;
+   color: #ffffff;
+   font-weight: 700;
+   margin-bottom: 40px;
+   text-align: center;
 }

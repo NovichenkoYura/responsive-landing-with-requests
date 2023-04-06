@@ -3,17 +3,12 @@ export const Header = () => {
   return (
     <header>
       <div className="container header__wrap">
-        <svg width="104" height="26" className="header__icon">
-          <use href="../../images/Logo_optimized.svg"></use>
+        <svg className="header__icon">
+          <use href="https://public-assets.envato-static.com/assets/logos/envato_market-dde916a48af7413e54aa058fe7ae6856752fca799da4bec355f00aea904bfa19.svg"></use>
         </svg>
-        <div className="header__buttonlist">
-          <button type="button" className="header__button">
-            Users
-          </button>
-          <button type="button" className="header__button">
-            Sign up
-          </button>
-        </div>
+        <button type="button" className="header__button">
+          Buy now
+        </button>
       </div>
     </header>
   );
