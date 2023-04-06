@@ -6,19 +6,12 @@
  }
 
  .frontview{
-    // background-image: url(../../images/frontview_optimized.jpeg);
-    // width: 100%;
-    // height: auto;
-    // width: 560px;
-    // height: auto;
-    // background-color: red;
-    // ;
-
-    height: 100vh;
+   //  height: 100vh;
+   height: 500px;   
     display: block;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/frontview_optimized.jpeg);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: bottom;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -26,4 +19,28 @@
           flex-grow: 1;
  }
 
-//  no-repeat center center fixed
+ 
+@media screen and (min-width: 360px) {
+   .frontview {
+       height: 500px;      
+   }    
+}
+@media screen and (min-width: 768px) {
+   .frontview {
+      height: 500px;      
+  }    
+
+   }
+
+@media screen and (min-width: 1024px) {
+   .frontview {
+      height: 650px;      
+  }    
+}
+
+@media screen and (min-width: 2560px) {
+   .frontview {
+      width: 1170px;
+      height: 650px;      
+  }    
+}
