@@ -64,10 +64,4 @@
 }
 .header__button:hover, .header__button:focus {
   background-color: #6f9a37;
-}
-
-.header__buttonlist {
-  display: flex;
-  flex-direction: row;
-  margin-left: -10px;
 }/*# sourceMappingURL=Header.css.map */

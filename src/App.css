@@ -17,4 +17,12 @@ h6,
 p,
 ul {
   margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
 }/*# sourceMappingURL=App.css.map */
