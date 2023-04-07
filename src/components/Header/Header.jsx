@@ -2,13 +2,55 @@ import './Header.css';
 export const Header = () => {
   return (
     <header>
-      <div className="container header__wrap">
-        <svg className="header__icon">
-          <use href="https://public-assets.envato-static.com/assets/logos/envato_market-dde916a48af7413e54aa058fe7ae6856752fca799da4bec355f00aea904bfa19.svg"></use>
-        </svg>
-        <button type="button" className="header__button">
-          Buy now
-        </button>
+      <div className="container">
+        <nav className="header__nav">
+          <a className="header__logo" href="">
+            <img src="	https://htmldemo.net/moto/moto/img/icon/logo.png" />
+          </a>
+          <button type="button" className="header__onBtnOpen"></button>
+          <ul className="nav__list list">
+            <li className="nav__item">
+              <a href="" className="nav__link link">
+                Home
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="" className="nav__link link">
+                About
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="" className="nav__link link">
+                Features
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="" className="nav__link link">
+                Pricing
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="" className="nav__link link">
+                Client
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="" className="nav__link link">
+                Contact
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="" className="nav__link link">
+                Team
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="" className="nav__link link nav__btn">
+                Download
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
   );
