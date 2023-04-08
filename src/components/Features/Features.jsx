@@ -2,44 +2,85 @@ import './Features.css';
 export const Features = () => {
   return (
     <section className="features">
-      <h2 className="features__title" hidden>
-        Advantages
-      </h2>
+      <div className="feature__heading">
+        <h2 className="feature__sectionTitle">Best features</h2>
+        <p>
+          Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is
+          de standaard proeftekst in deze bedrijfstak sinds.
+        </p>
+      </div>
+
       <ul className="list features__list">
         <li className="feature__item">
-          <div className="feature__icon">
-            <img src="https://htmldemo.net/moto/moto/img/icon/service-icon-1.png" alt="customize" />
-          </div>
           <div className="feature__content">
-            <h2 className="feature__title">Easy to customize</h2>
-            <p className="feature__discription">
-              Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
-              stan.
-            </p>
+            <div className="feature__icon"></div>
+            <div className="feature__details">
+              <h2 className="feature__title">Notification viewing</h2>
+              <p className="feature__discription">
+                Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
+                stan.
+              </p>
+            </div>
           </div>
         </li>
         <li className="feature__item">
-          <div className="feature__icon">
-            <img src="https://htmldemo.net/moto/moto/img/icon/service-icon-2.png" alt="design" />
-          </div>
           <div className="feature__content">
-            <h2 className="feature__title">Awesome Design </h2>
-            <p className="feature__discription">
-              Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
-              stan.
-            </p>
+            <div className="feature__icon"></div>
+            <div className="feature__details">
+              <h2 className="feature__title">Creative design</h2>
+              <p className="feature__discription">
+                Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
+                stan.
+              </p>
+            </div>
           </div>
         </li>
         <li className="feature__item">
-          <div className="feature__icon">
-            <img src="https://htmldemo.net/moto/moto/img/icon/service-icon-3.png" alt="use" />
-          </div>
           <div className="feature__content">
-            <h2 className="feature__title">Easy To Use</h2>
-            <p className="feature__discription">
-              Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
-              stan.
-            </p>
+            <div className="feature__icon"></div>
+            <div className="feature__details">
+              <h2 className="feature__title">Cleane code</h2>
+              <p className="feature__discription">
+                Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
+                stan.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li className="feature__item">
+          <div className="feature__content">
+            <div className="feature__icon"></div>
+            <div className="feature__details">
+              <h2 className="feature__title">Full free video call</h2>
+              <p className="feature__discription">
+                Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
+                stan.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li className="feature__item">
+          <div className="feature__content">
+            <div className="feature__icon"></div>
+            <div className="feature__details">
+              <h5 className="feature__title">Great support</h5>
+              <p className="feature__discription">
+                Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
+                stan.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li className="feature__item">
+          <div className="feature__content">
+            <div className="feature__icon"></div>
+            <div className="feature__details">
+              <h2 className="feature__title">Unlimited features</h2>
+              <p className="feature__discription">
+                Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
+                stan.
+              </p>
+            </div>
           </div>
         </li>
       </ul>
