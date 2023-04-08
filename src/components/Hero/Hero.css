@@ -1,0 +1,71 @@
+.hero {
+  display: block;
+  background: url("https://htmldemo.net/moto/img/moto/banner.webp") repeat scroll center center;
+  background-size: cover;
+  flex-grow: 1;
+  height: 901.2px;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 1201.6px;
+  }
+}
+.hero p {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 0 35px;
+}
+
+.hero__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hero__title {
+  font-size: 42px;
+  line-height: 1.2;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: left;
+  text-transform: capitalize;
+}
+@media screen and (min-width: 768px) {
+  .hero__title {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 60px;
+  }
+}
+
+.hero__btn {
+  font-size: 16px;
+  background-color: #ff5f6d;
+  border: transparent;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 15px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.hero__btn:hover, .hero__btn:focus {
+  background-color: #f04c5a;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 450px;
+}/*# sourceMappingURL=Hero.css.map */
