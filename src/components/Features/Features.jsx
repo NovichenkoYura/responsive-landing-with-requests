@@ -15,7 +15,7 @@ export const Features = () => {
           <div className="feature__content">
             <div className="feature__icon"></div>
             <div className="feature__details">
-              <h2 className="feature__title">Notification viewing</h2>
+              <h5 className="feature__title">Notification viewing</h5>
               <p className="feature__discription">
                 Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
                 stan.
@@ -27,7 +27,7 @@ export const Features = () => {
           <div className="feature__content">
             <div className="feature__icon"></div>
             <div className="feature__details">
-              <h2 className="feature__title">Creative design</h2>
+              <h5 className="feature__title">Creative design</h5>
               <p className="feature__discription">
                 Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
                 stan.
@@ -39,7 +39,7 @@ export const Features = () => {
           <div className="feature__content">
             <div className="feature__icon"></div>
             <div className="feature__details">
-              <h2 className="feature__title">Cleane code</h2>
+              <h5 className="feature__title">Cleane code</h5>
               <p className="feature__discription">
                 Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
                 stan.
@@ -51,7 +51,7 @@ export const Features = () => {
           <div className="feature__content">
             <div className="feature__icon"></div>
             <div className="feature__details">
-              <h2 className="feature__title">Full free video call</h2>
+              <h5 className="feature__title">Full free video call</h5>
               <p className="feature__discription">
                 Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
                 stan.
@@ -75,7 +75,7 @@ export const Features = () => {
           <div className="feature__content">
             <div className="feature__icon"></div>
             <div className="feature__details">
-              <h2 className="feature__title">Unlimited features</h2>
+              <h5 className="feature__title">Unlimited features</h5>
               <p className="feature__discription">
                 Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de
                 stan.

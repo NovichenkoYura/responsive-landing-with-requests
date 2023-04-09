@@ -1,0 +1,82 @@
+
+.funfacts{
+    display: block;
+    background: rgba(0, 0, 0, 0) url("https://htmldemo.net/moto/moto/img/bg/2.png") repeat scroll center center;
+    background-size: cover;
+    flex-grow: 1;
+    height: 641px;
+    padding: 125px 0 100px;
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+
+    @media screen and (min-width: 768px){
+        padding: 125px 0 130px;
+        height: 329px;
+    }
+    @media screen and (min-width: 992px){
+             
+    }
+    @media screen and (min-width: 1200px){
+              
+    }
+    
+}
+
+.funfacts__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 768px){
+        flex-direction: row;
+        justify-content: center;
+   
+}
+}
+
+.funfacts__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 768px){
+        flex-direction: row;
+        justify-content: space-between;
+        width: 696px;
+    }
+    @media screen and (min-width: 992px){
+        width: 936px;     
+    }
+    @media screen and (min-width: 1200px){
+        width: 1155px;      
+    }
+    
+}
+
+.funfacts__item{
+    margin-bottom: 30px;
+}
+
+.funfacts__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.funfacts__counter{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 35px;
+}
+
+.funfacts__singlefact{color: #fff;
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-size: 20px;
+    }

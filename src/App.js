@@ -4,6 +4,8 @@ import { Hero } from './components/Hero/Hero';
 import { Header } from './components/Header/Header';
 import { Service } from './components/Service/Service';
 import { Features } from './components/Features/Features';
+import { FunFacts } from './components/FunFacts/FunFacts';
+import { Pricing } from './components/Pricing/Pricing';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Hero />
       <Service />
       <Features />
+      <FunFacts />
+      <Pricing />
       {/* <DemoCards /> */}
     </div>
   );
