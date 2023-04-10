@@ -82,54 +82,11 @@
    justify-content: center;
    align-items:start;  
    width: 450px; 
+   position: relative;
 }
 
-// .frontview__title{
-//    font-family: 'Open Sans', sans-serif;
-//    font-size: 46px;
-//    color: #ffffff;
-//    font-weight: 700;
-//    margin-bottom: 40px;
-//    text-align: center;
-//    text-transform: uppercase;
-// }
-
-// .frontview__btn{
-//    font-family: 'Open Sans', sans-serif;
-//    font-size: 14px;
-//    background-color: transparent;
-//    border: 1.25px solid #ffffff;
-//    color: #ffffff;
-//    font-weight: 600;  
-//    text-align: center;
-//    text-transform: uppercase;
-//    width: 165px;
-//    height: 45px;
-//    cursor: pointer;
-//    padding: 0 15px;
-//    margin: 0 5px 15px;
-//    &:hover,
-//    &:focus{
-//       background-color: #ff5f6d;
-//       border:transparent;
-//    }
-//    @media screen and (min-width: 384px) {
-//       padding: 0 20px;
-//    margin: 0 5px;
-//    }  
-// }
-
-// .frontview__wrap{
-//    display: flex;
-//    flex-direction: column;
-//    justify-content: center;
-//    align-items: center;   
-// }
-
-// .frontview__content{
-//    display: flex;
-//    flex-direction: column;
-//    @media screen and (min-width: 384px) {
-//       flex-direction: row;
-//    }
+// .hero__slider{
+//    position: absolute;
+//    width: 300px;
+//    height: 446px;
 // }

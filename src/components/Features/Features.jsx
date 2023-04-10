@@ -1,4 +1,4 @@
-import './Features.css';
+import './Features.scss';
 export const Features = () => {
   return (
     <section className="features">

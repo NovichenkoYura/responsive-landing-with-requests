@@ -12,6 +12,9 @@ export const Hero = () => {
           <a href="" className="hero__btn link">
             Download
           </a>
+          {/* <div className="hero__slider">
+            <img src="https://htmldemo.net/moto/moto/img/slider/10.png" />
+          </div> */}
         </div>
       </div>
     </section>

@@ -55,6 +55,21 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
 }
+@media screen and (min-width: 768px) {
+  .pricing__content {
+    width: 336px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .pricing__content {
+    width: 296px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .pricing__content {
+    width: 365px;
+  }
+}
 .pricing__content:hover, .pricing__content:focus {
   background-color: #f04c5a;
   border-radius: 10px;
@@ -71,22 +86,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 426px;
-}
-@media screen and (min-width: 768px) {
-  .pricing__details {
-    width: 336px;
-  }
-}
-@media screen and (min-width: 992px) {
-  .pricing__details {
-    width: 296px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .pricing__details {
-    width: 365px;
-  }
 }
 .pricing__details span {
   color: #3e3e3e;
