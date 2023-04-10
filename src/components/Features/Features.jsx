@@ -87,3 +87,11 @@ export const Features = () => {
     </section>
   );
 };
+
+{
+  /* <div className="footer-c-elem">
+          <div className="footer-elem">
+            <i className="icofont-angry-monster"></i>
+          </div>
+        </div> */
+}

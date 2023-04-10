@@ -5,8 +5,8 @@ export const Footer = () => {
       <div className="footer__container">
         <div className="footer__contacts-wrap">
           <div className="footer__contacts">
-            <div className="footer__contact-icon">
-              <i className="icofont icofont-phone"></i>
+            <div>
+              <i className="icofont-phone"></i>
             </div>
             <div className="footer__phone">
               <p>+012 345 678 102</p>
@@ -33,31 +33,32 @@ export const Footer = () => {
             </div>
           </div>
         </div>
+
         <div className="footer__social">
           <ul className="footer__social-list list">
             <li className="footer__social__item ">
               <a href="" className="link">
-                f
+                <i className="icofont-facebook"></i>
               </a>
             </li>
             <li className="footer__social__item ">
               <a href="" className="link">
-                f
+                <i className="icofont-twitter"></i>
               </a>
             </li>
             <li className="footer__social__item ">
               <a href="" className="link">
-                f
+                <i className="icofont-pinterest"></i>
               </a>
             </li>
             <li className="footer__social__item ">
               <a href="" className="link">
-                f
+                <i className="icofont-vimeo"></i>
               </a>
             </li>
             <li className="footer__social__item ">
               <a href="" className="link">
-                f
+                <i className="icofont-google-plus"></i>
               </a>
             </li>
           </ul>

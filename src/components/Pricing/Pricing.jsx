@@ -49,6 +49,7 @@ export const Pricing = () => {
             </div>
           </div>
         </li>
+
         <li className="pricing__item">
           <div className="pricing__content">
             <div className="pricing__details">
